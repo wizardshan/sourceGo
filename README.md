@@ -28,3 +28,7 @@ https://github.com/Saurav1999/sliding-window-rate-limiter
 Limit by API endpoint
 Limit by IP
 Limit by Custom user identifier like X-User-Id, Authorization token, etc.
+
+
+连接超时（ConnectTimeout）：客户端与服务端建立连接的最长等待时间。
+读取超时（ReadTimeout）：客户端和服务端已经建立连接，客户端等待服务端处理完请求的最长时间。实际项目中，我们关注比较多的还是读取超时。
