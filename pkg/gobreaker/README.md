@@ -13,3 +13,7 @@ Timeout控制熔断状态下的时间窗口过期参数，时间过期进入半开状态，默认60s，进入熔断
 * 只要失败一次进入再次熔断状态
 * 连续请求成功数大于等于maxRequests参数，进入关闭状态，maxRequests默认1
 * 最多允许通过maxRequests数量的请求，后续的请求，返回"too many requests"错误；
+
+
+
+
